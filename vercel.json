@@ -2,11 +2,11 @@
     "version": 2,
     "builds": [
         {
-            "src": "src/page.tsx",
+            "src": "/",
             "use": "@vercel/node"
         }
     ],
     "rewrites": [
-        { "source": "/(.*)", "destination": "src/page.tsx" }
+        { "source": "/(.*)", "destination": "/" }
     ]
 }
